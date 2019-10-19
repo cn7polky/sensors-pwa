@@ -2,7 +2,6 @@
   <div id="gyro">
     <h1>Device Orientation API</h1>
     <span id="notsuport" class="hidden">deviceorientation event não suportado</span>
-    <span id="calibration" class="hidden">compassneedscalibration event não suportado</span>
 
     <div id="results">
       <div id="cube" class="cube">
