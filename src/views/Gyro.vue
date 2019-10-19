@@ -66,15 +66,6 @@ export default {
           document.getElementById('alpha').innerHTML = Math.round(event.alpha)
         })
       }
-
-      //verifica compatibilidade de calibração do sensor
-      if (!('oncompassneedscalibration' in window)) {
-        document.getElementById('calibration').classList.remove('hidden')
-      } else {
-        window.addEventListener('compassneedscalibration', function (event) {
-          alert('O giroscópio precisa ser calibrado! Movimente seu dispositivo em um formato de 8')
-        })
-      }
     }
   }
 }
